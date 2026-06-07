@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+
+message: "If you use this repository, dataset, benchmark, or research artifacts, please cite the associated master's dissertation."
+
+type: thesis
+
+title: "Evaluation of the Use of Large Language Models in Information Security Risk Assessment: A Comparative Study with Human Experts"
+
+authors:
+  - family-names: "Pinto"
+    given-names: "Gustavo Roberto"
+
+year: 2026
+
+institution:
+  name: "Federal University of Uberlândia"
+
+department: "School of Computer Science"
+
+thesis-type: "Master's Dissertation"
+
+abstract: >
+  This master's dissertation investigates the behavior of Large Language Models
+  in information security risk assessment scenarios compared to human experts.
+  The study evaluates 18 cybersecurity risk scenarios based on the CIS Critical
+  Security Controls and compares assessments produced by five popular LLMs with
+  responses provided by 50 cybersecurity and technology professionals. The
+  results highlight the importance of human oversight and Human-in-the-Loop
+  approaches when applying LLMs to information security risk assessment
+  processes.
+
+keywords:
+  - Cybersecurity
+  - Information Security
+  - Risk Assessment
+  - Large Language Models
+  - Generative Artificial Intelligence
+  - Human-in-the-Loop
+  - CIS Controls
+  - Human Factors
+
+repository-code: "https://github.com/gusberto/cybersecurity_assessment_llm_hitl"
+
+url: "https://github.com/gusberto/cybersecurity_assessment_llm_hitl"
+
+license: "MIT"
+
+preferred-citation:
+  type: thesis
+  title: "Evaluation of the Use of Large Language Models in Information Security Risk Assessment: A Comparative Study with Human Experts"
+  authors:
+    - family-names: "Pinto"
+      given-names: "Gustavo Roberto"
+  year: 2026
+  institution:
+    name: "Federal University of Uberlândia"
+  department: "School of Computer Science"
+  thesis-type: "Master's Dissertation"
