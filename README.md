@@ -96,6 +96,17 @@ The repository may also contain supporting materials related to:
 - Experimental setup
 - Statistical analysis
 
+## Reproducing the statistical analyses
+
+The ⁠ analysis/ ⁠ directory contains the Python script used to reproduce the revised manuscript’s statistical analyses from the archived human ratings and LLM responses. It calculates correlations, mean signed differences, MAE, RMSE, standardized paired differences, and exploratory 95% bootstrap intervals using 20,000 resamples (seed: 20261005). It also reports human subgroup comparisons and Holm-adjusted results for the 15 model–reference tests.
+
+All original scores are preserved; no rescaling or additional model evaluations are performed. From the repository root, run:
+
+python -m pip install -r analysis/requirements.txt
+python analysis/analyze_r2.py
+
+Results are saved in ⁠ analysis/results/ ⁠. See ⁠ analysis/README.md ⁠ for methodological details, assumptions, and limitations.
+
 ---
 
 ## Reproducibility
